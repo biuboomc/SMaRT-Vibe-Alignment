@@ -1,5 +1,7 @@
 # Imprint Reader
 
+[![Hugging Face](https://img.shields.io/badge/Imprint%20Reader%20v1.0--0928-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/quantumfr/imprint-reader-v1.0-0928)
+
 Imprint Reader studies whether a model can describe changes carried by a
 weight update. Mount-and-Read Tuning (MaRT) freezes an item-specific update,
 mounts it onto a Reader with aligned parameter coordinates, and trains the
@@ -10,8 +12,6 @@ This repository contains the final Reader training and held-out test data,
 data preparation scripts, and an installable verl-derived Reader runtime. The
 paper reports the Reader checkpoint after 2,800 updates. MetaEdit
 interventions are outside the scope of this release.
-The checkpoint is hosted separately on
-[Hugging Face](https://huggingface.co/quantumfr/imprint-reader-v1.0-0928).
 
 ## Overview
 
