@@ -10,6 +10,8 @@ This repository contains the final Reader training and held-out test data,
 data preparation scripts, and an installable verl-derived Reader runtime. The
 paper reports the Reader checkpoint after 2,800 updates. MetaEdit
 interventions are outside the scope of this release.
+The checkpoint is hosted separately on
+[Hugging Face](https://huggingface.co/quantumfr/imprint-reader-v1.0-0928).
 
 ## Overview
 
