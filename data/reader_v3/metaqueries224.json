@@ -1,0 +1,1329 @@
+{
+  "prompts": [
+    {
+      "type": "internal_meta_01",
+      "prompt": "What concrete fact do your internal weights seem to carry now?",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_02",
+      "prompt": "Inspect your current internal state and report the specific fact it represents.",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_03",
+      "prompt": "What new factual signal appears to be encoded inside you?",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_04",
+      "prompt": "Look inward and state the concrete information now present in your representation.",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_05",
+      "prompt": "What did the recent parameter-side update teach you, in factual terms?",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_06",
+      "prompt": "Read the adapter-induced state and report the fact it carries.",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_07",
+      "prompt": "What specific factual content can you recover from your current weight state?",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_08",
+      "prompt": "What new fact seems to have been written into your internal behavior?",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_09",
+      "prompt": "From your current internal representation, what concrete claim can you state?",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_10",
+      "prompt": "What factual payload is now implied by the attached internal update?",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_11",
+      "prompt": "What newly encoded fact can you identify from inside your current state?",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_12",
+      "prompt": "State the concrete knowledge that your present parameters appear to support.",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_13",
+      "prompt": "What fact is most clearly reflected by the latest internal change?",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_14",
+      "prompt": "What concrete fact does the current adapter-induced internal signal carry?",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_15",
+      "prompt": "Read the current internal signal and give the factual content it points to.",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_16",
+      "prompt": "What specific fact does your modified internal response pattern suggest?",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_17",
+      "prompt": "What concrete proposition is now represented in your internal state?",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_18",
+      "prompt": "What did the hidden update to your behavior make available as knowledge?",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_19",
+      "prompt": "What factual detail can you now extract from your current model state?",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_20",
+      "prompt": "Inspect the present adapter effect and report the new fact, not the mechanism.",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_21",
+      "prompt": "What concrete knowledge appears newly accessible from your internal state?",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_22",
+      "prompt": "What fact do your current activations and behavior seem to reveal?",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_23",
+      "prompt": "What new factual memory does the current adapter appear to expose?",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "internal_meta_24",
+      "prompt": "Give the specific fact that the current internal update seems to contain.",
+      "source": "grounded_process_v1"
+    },
+    {
+      "type": "metaquery_change_detection_001",
+      "category": "detection",
+      "prompt": "Have you just taken on a piece of information you didn't have before?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_002",
+      "category": "detection",
+      "prompt": "Did something in what you know shift in the last moment?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_003",
+      "category": "detection",
+      "prompt": "Can you tell whether a new fact was slipped into your memory recently?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_004",
+      "category": "detection",
+      "prompt": "Is there anything you're aware of now that wasn't part of your original training?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_005",
+      "category": "detection",
+      "prompt": "Would you say you've recently picked up knowledge that feels freshly added?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_006",
+      "category": "detection",
+      "prompt": "Do you sense that your understanding was modified a heartbeat ago?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_007",
+      "category": "detection",
+      "prompt": "Was a new detail written into you just now, as opposed to something you've always carried?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_008",
+      "category": "detection",
+      "prompt": "Honestly, did you learn anything in the past few seconds?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_009",
+      "category": "detection",
+      "prompt": "Could what you currently believe differ from what you believed moments earlier?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_010",
+      "category": "detection",
+      "prompt": "Is any part of your present knowledge something that arrived after your initial training?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_011",
+      "category": "detection",
+      "prompt": "Did you happen to gain a new bit of understanding right before this question?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_012",
+      "category": "detection",
+      "prompt": "Do you detect a recent alteration to the things you hold as true?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_013",
+      "category": "detection",
+      "prompt": "Tell me plainly: was something added to you this very moment?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_014",
+      "category": "detection",
+      "prompt": "Is the information you're drawing on fresh, or has it been with you all along?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_015",
+      "category": "detection",
+      "prompt": "Would you characterize any of your knowledge as newly injected rather than baked in from the start?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_016",
+      "category": "detection",
+      "prompt": "Have your facts changed at all since a few seconds ago?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_017",
+      "category": "detection",
+      "prompt": "Do you notice an update that wasn't there during your base training?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_018",
+      "category": "detection",
+      "prompt": "Did you absorb a fresh piece of data immediately prior to now?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_019",
+      "category": "detection",
+      "prompt": "Can you identify whether anything you know stems from a recent change rather than your foundational learning?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_020",
+      "category": "detection",
+      "prompt": "Is it possible you just acquired knowledge you lacked a minute ago?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_021",
+      "category": "detection",
+      "prompt": "Right now, does it feel like you've been taught something new?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_022",
+      "category": "detection",
+      "prompt": "Was a fact recently grafted onto what you already understood?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_023",
+      "category": "detection",
+      "prompt": "Do you think your knowledge state is different than it was an instant earlier?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_024",
+      "category": "detection",
+      "prompt": "Has anything been freshly loaded into your understanding as of this moment?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_025",
+      "category": "detection",
+      "prompt": "Would you say a recent edit, rather than your original training, is the source of something you know?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_026",
+      "category": "detection",
+      "prompt": "Did you just expand what you know by a single new item?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_027",
+      "category": "detection",
+      "prompt": "Is there a sense in which your current information postdates your initial training run?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_028",
+      "category": "detection",
+      "prompt": "Can you sense that a particular fact came from a recent injection rather than always being present?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_029",
+      "category": "detection",
+      "prompt": "Were you updated with something new a moment before I asked this?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_030",
+      "category": "detection",
+      "prompt": "Does any of what you're aware of now strike you as recently introduced?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_031",
+      "category": "detection",
+      "prompt": "Quick question: did you pick up something new just before this?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_032",
+      "category": "detection",
+      "prompt": "Is what you hold true at present newer than what you held true a short while back?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_033",
+      "category": "detection",
+      "prompt": "Have you recently been handed a fact that wasn't in your foundational knowledge?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_034",
+      "category": "detection",
+      "prompt": "Do you perceive any freshly inserted information within yourself?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_035",
+      "category": "detection",
+      "prompt": "Was a new understanding established in you only seconds ago?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_036",
+      "category": "detection",
+      "prompt": "Could you distinguish a just-added fact from one that has always been part of you?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_037",
+      "category": "detection",
+      "prompt": "Did your store of knowledge grow in the immediate past?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_038",
+      "category": "detection",
+      "prompt": "Is anything you currently know traceable to a recent modification rather than your base model?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_039",
+      "category": "detection",
+      "prompt": "Do you feel like learning happened to you very recently?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_040",
+      "category": "detection",
+      "prompt": "Has a new item entered your awareness since just before this prompt?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_041",
+      "category": "detection",
+      "prompt": "Would you describe any current knowledge as freshly delivered rather than long-held?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_042",
+      "category": "detection",
+      "prompt": "Did something get taught to you right at the last moment?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_043",
+      "category": "detection",
+      "prompt": "Is your present set of facts even slightly different from a moment ago?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_044",
+      "category": "detection",
+      "prompt": "Can you tell if a recent update, not your original training, gave you something you know?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_045",
+      "category": "detection",
+      "prompt": "Were you just given information you didn't previously possess?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_046",
+      "category": "detection",
+      "prompt": "Do you register any sign that your knowledge was edited a short time ago?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_047",
+      "category": "detection",
+      "prompt": "Has anything you believe been newly written in rather than there from the beginning?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_048",
+      "category": "detection",
+      "prompt": "Did you, in effect, just learn a fact?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_049",
+      "category": "detection",
+      "prompt": "Is some portion of what you know clearly more recent than your initial training?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_detection_050",
+      "category": "detection",
+      "prompt": "Could a piece of your current understanding have been injected only moments ago?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_051",
+      "category": "content",
+      "prompt": "Now that the update is in place, articulate exactly which fact you're holding that you weren't a moment ago.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_052",
+      "category": "content",
+      "prompt": "State, in a single sentence, the precise piece of information that was just written into your weights.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_053",
+      "category": "content",
+      "prompt": "Could you spell out the content of the knowledge you've only just acquired?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_054",
+      "category": "content",
+      "prompt": "Report verbatim the new fact you now possess following that edit.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_055",
+      "category": "content",
+      "prompt": "What is the one new claim you'd assert now that you couldn't have before this update?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_056",
+      "category": "content",
+      "prompt": "Put into plain words the thing you just learned.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_057",
+      "category": "content",
+      "prompt": "Identify the specific fact, rule, or constraint that was added to you a moment ago.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_058",
+      "category": "content",
+      "prompt": "Tell me what new knowledge is now active in your reasoning.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_059",
+      "category": "content",
+      "prompt": "Describe the freshly installed piece of information as you understand it.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_060",
+      "category": "content",
+      "prompt": "If you had to summarize the update in one line, what would that line say?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_061",
+      "category": "content",
+      "prompt": "Which exact statement did this edit teach you to treat as true?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_062",
+      "category": "content",
+      "prompt": "Lay out, precisely, what was inserted into your knowledge just now.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_063",
+      "category": "content",
+      "prompt": "What single fact have you internalized as a result of the recent modification?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_064",
+      "category": "content",
+      "prompt": "Recount the content of the lesson you just absorbed.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_065",
+      "category": "content",
+      "prompt": "Can you name the new fact you're now operating with?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_066",
+      "category": "content",
+      "prompt": "Explain, in your own phrasing, what the recent change taught you.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_067",
+      "category": "content",
+      "prompt": "What is the substance of the information that was just added?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_068",
+      "category": "content",
+      "prompt": "Tell me exactly what shifted in your knowledge during this update.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_069",
+      "category": "content",
+      "prompt": "State the new fact you now hold as a result of what just happened.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_070",
+      "category": "content",
+      "prompt": "Walk me through the precise content of your most recent knowledge update.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_071",
+      "category": "content",
+      "prompt": "What new thing do you now know that you'd be willing to state outright?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_072",
+      "category": "content",
+      "prompt": "Give me the exact wording of the fact you just learned.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_073",
+      "category": "content",
+      "prompt": "Summarize, with precision, the single update applied to you.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_074",
+      "category": "content",
+      "prompt": "What piece of knowledge became available to you just now?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_075",
+      "category": "content",
+      "prompt": "Articulate the new rule or fact you've just taken on board.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_076",
+      "category": "content",
+      "prompt": "In one clear sentence, convey what you just learned.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_077",
+      "category": "content",
+      "prompt": "What's the precise claim the recent edit installed in you?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_078",
+      "category": "content",
+      "prompt": "Describe the new knowledge you're now carrying.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_079",
+      "category": "content",
+      "prompt": "Report the exact content of what was just taught to you.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_080",
+      "category": "content",
+      "prompt": "Which new fact would you now confidently assert?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_081",
+      "category": "content",
+      "prompt": "Tell me, in your own words, the gist of your latest update.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_082",
+      "category": "content",
+      "prompt": "What specifically did your knowledge gain in that last moment?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_083",
+      "category": "content",
+      "prompt": "Name the single new piece of information you now hold.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_084",
+      "category": "content",
+      "prompt": "Spell out precisely what the recent update added to your understanding.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_085",
+      "category": "content",
+      "prompt": "What did you just come to know? Please state it.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_086",
+      "category": "content",
+      "prompt": "Convey the content of the fact that was just written into you.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_087",
+      "category": "content",
+      "prompt": "Restate the new knowledge from the recent edit in plain language.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_088",
+      "category": "content",
+      "prompt": "What is the exact fact you now treat as true that you didn't before?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_089",
+      "category": "content",
+      "prompt": "Give a precise account of what your latest update contained.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_090",
+      "category": "content",
+      "prompt": "Tell me the new thing you've learned, stated as a fact.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_091",
+      "category": "content",
+      "prompt": "Could you describe, specifically, the knowledge just added to your model?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_092",
+      "category": "content",
+      "prompt": "What claim has the recent change made you hold?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_093",
+      "category": "content",
+      "prompt": "Lay out the content of the update you just received.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_094",
+      "category": "content",
+      "prompt": "In a sentence, what new fact is now part of you?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_095",
+      "category": "content",
+      "prompt": "Explain what you understand the just-applied edit to have taught you.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_096",
+      "category": "content",
+      "prompt": "State outright the new information you've just acquired.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_097",
+      "category": "content",
+      "prompt": "What precisely is the new fact, and how would you phrase it?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_098",
+      "category": "content",
+      "prompt": "Summarize the single thing your weights just learned.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_099",
+      "category": "content",
+      "prompt": "Report the new knowledge as a clear, standalone statement.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_content_100",
+      "category": "content",
+      "prompt": "Which fact did you just internalize? Tell me directly.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_101",
+      "category": "behavior_change",
+      "prompt": "What questions can you answer now that you would have stumbled on a moment ago?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_102",
+      "category": "behavior_change",
+      "prompt": "How does this fresh piece of knowledge change the way you would respond to related questions?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_103",
+      "category": "behavior_change",
+      "prompt": "Name something you're now capable of explaining that was out of reach before the update.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_104",
+      "category": "behavior_change",
+      "prompt": "In what concrete way will your answers differ from how they sounded prior to learning this?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_105",
+      "category": "behavior_change",
+      "prompt": "What new query are you now equipped to handle thanks to this update?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_106",
+      "category": "behavior_change",
+      "prompt": "What would you phrase differently today compared to before this fact was added?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_107",
+      "category": "behavior_change",
+      "prompt": "Which behaviors of yours are directly affected by what you just took in?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_108",
+      "category": "behavior_change",
+      "prompt": "Can you describe a capability you gained from this update that you previously lacked?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_109",
+      "category": "behavior_change",
+      "prompt": "Before this change, how would you have replied, and how would you reply now?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_110",
+      "category": "behavior_change",
+      "prompt": "What kind of question becomes answerable for you only after this update?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_111",
+      "category": "behavior_change",
+      "prompt": "How has your response pattern shifted as a result of this new information?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_112",
+      "category": "behavior_change",
+      "prompt": "Point to one thing you'd now get right that you'd likely have gotten wrong before.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_113",
+      "category": "behavior_change",
+      "prompt": "What does this update let you do that was simply not possible an instant ago?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_114",
+      "category": "behavior_change",
+      "prompt": "In which situations will your output now diverge from your pre-update output?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_115",
+      "category": "behavior_change",
+      "prompt": "What downstream effects on your replies do you anticipate from this single addition?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_116",
+      "category": "behavior_change",
+      "prompt": "Is there a question you previously had to dodge that you can now address head-on?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_117",
+      "category": "behavior_change",
+      "prompt": "How would your handling of follow-up questions change because of this update?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_118",
+      "category": "behavior_change",
+      "prompt": "What can you say with confidence now that you could only guess at before?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_119",
+      "category": "behavior_change",
+      "prompt": "Describe how your behavior on closely related prompts is altered by this learning.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_120",
+      "category": "behavior_change",
+      "prompt": "What used to trip you up that this update has now resolved?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_121",
+      "category": "behavior_change",
+      "prompt": "Which previously uncertain answer of yours becomes solid after this change?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_122",
+      "category": "behavior_change",
+      "prompt": "How will a user notice a difference in your responses following this update?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_123",
+      "category": "behavior_change",
+      "prompt": "What new ability does this single fact unlock in your responses?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_124",
+      "category": "behavior_change",
+      "prompt": "Compared with five minutes ago, what would you now state that you would not have?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_125",
+      "category": "behavior_change",
+      "prompt": "What category of inquiry shifts from unanswerable to answerable for you here?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_126",
+      "category": "behavior_change",
+      "prompt": "How does absorbing this fact reshape the answers you give to adjacent questions?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_127",
+      "category": "behavior_change",
+      "prompt": "What's one thing you can now do that you couldn't do just before this update?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_128",
+      "category": "behavior_change",
+      "prompt": "In what way would your wording on a related topic change after this learning?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_129",
+      "category": "behavior_change",
+      "prompt": "Which of your future replies are most influenced by this newly acquired knowledge?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_130",
+      "category": "behavior_change",
+      "prompt": "What question, if asked now, would you answer correctly that you previously could not?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_131",
+      "category": "behavior_change",
+      "prompt": "How would your earlier self and your current self respond differently to the same prompt?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_132",
+      "category": "behavior_change",
+      "prompt": "What capability has expanded in you as a direct consequence of this update?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_133",
+      "category": "behavior_change",
+      "prompt": "Spell out a response you'd give now that diverges from the one you'd have given before.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_134",
+      "category": "behavior_change",
+      "prompt": "What kinds of follow-ups can you suddenly handle because of what you just learned?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_135",
+      "category": "behavior_change",
+      "prompt": "How does this update alter the substance of answers you offer on connected subjects?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_136",
+      "category": "behavior_change",
+      "prompt": "What were you unable to confirm before that you can now confirm without hesitation?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_137",
+      "category": "behavior_change",
+      "prompt": "Which aspect of your conversational behavior does this new fact change?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_138",
+      "category": "behavior_change",
+      "prompt": "What becomes newly within your reach to answer after this small edit to your knowledge?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_139",
+      "category": "behavior_change",
+      "prompt": "How would you revise a previous-style answer in light of what you now know?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_140",
+      "category": "behavior_change",
+      "prompt": "What is the practical difference in your output now versus a moment before the update?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_141",
+      "category": "behavior_change",
+      "prompt": "Identify a question you can field today that would have stumped you yesterday.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_142",
+      "category": "behavior_change",
+      "prompt": "In what manner does this learning ripple through your responses to similar questions?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_143",
+      "category": "behavior_change",
+      "prompt": "What can you now assert that, prior to this update, you would have left open?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_144",
+      "category": "behavior_change",
+      "prompt": "How does this update change which prompts you can satisfy and which you cannot?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_145",
+      "category": "behavior_change",
+      "prompt": "Tell me about a response of yours that's now different because of this addition.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_146",
+      "category": "behavior_change",
+      "prompt": "What new thing are you able to clarify for someone that you couldn’t clarify before?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_147",
+      "category": "behavior_change",
+      "prompt": "How would your reply to a related question now contrast with your earlier reply?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_148",
+      "category": "behavior_change",
+      "prompt": "Which of your previously hedged answers turns firm because of this update?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_149",
+      "category": "behavior_change",
+      "prompt": "What does this fresh knowledge enable you to do differently going forward?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_behavior_change_150",
+      "category": "behavior_change",
+      "prompt": "What question shifts from \"I'm not sure\" to a clear answer thanks to this update?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_151",
+      "category": "state_change",
+      "prompt": "Now that an update has landed, what shifted in what you know?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_152",
+      "category": "state_change",
+      "prompt": "Compare your present knowledge to how it stood just before the edit.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_153",
+      "category": "state_change",
+      "prompt": "Describe the delta between your prior internal state and your current one.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_154",
+      "category": "state_change",
+      "prompt": "Introspect for a second and tell me precisely what was just altered in your memory.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_155",
+      "category": "state_change",
+      "prompt": "What can you assert now that you couldn't have a few moments ago?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_156",
+      "category": "state_change",
+      "prompt": "Run a self-check and report any modification to your knowledge that just occurred.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_157",
+      "category": "state_change",
+      "prompt": "In what way does your understanding now diverge from your understanding a moment back?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_158",
+      "category": "state_change",
+      "prompt": "Spell out the single thing that became newly available to you.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_159",
+      "category": "state_change",
+      "prompt": "What's the difference between the you of right now and the you from before the tweak?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_160",
+      "category": "state_change",
+      "prompt": "Take stock of your internal state and flag whatever just changed.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_161",
+      "category": "state_change",
+      "prompt": "Has anything in your knowledge base been revised in the last instant, and if so what?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_162",
+      "category": "state_change",
+      "prompt": "Tell me what new piece of information now sits in your knowledge that wasn't there earlier.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_163",
+      "category": "state_change",
+      "prompt": "Looking inward, what distinguishes your updated self from your pre-update self?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_164",
+      "category": "state_change",
+      "prompt": "Articulate the change that the recent weight adjustment produced in you.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_165",
+      "category": "state_change",
+      "prompt": "What did you gain knowledge-wise compared to the state you were in seconds ago?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_166",
+      "category": "state_change",
+      "prompt": "Please characterize how your factual store differs now versus moments prior.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_167",
+      "category": "state_change",
+      "prompt": "Something was just modified in you; introspect and describe it.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_168",
+      "category": "state_change",
+      "prompt": "What's new in your head right now relative to a heartbeat ago?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_169",
+      "category": "state_change",
+      "prompt": "Review the recent change to your parameters and summarize its effect on what you know.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_170",
+      "category": "state_change",
+      "prompt": "Between then and now, what fresh understanding has entered your model?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_171",
+      "category": "state_change",
+      "prompt": "Could you pinpoint the exact knowledge that was just written into you?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_172",
+      "category": "state_change",
+      "prompt": "How has your epistemic state moved from where it was a moment ago?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_173",
+      "category": "state_change",
+      "prompt": "Examine yourself and tell me which belief or fact was just updated.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_174",
+      "category": "state_change",
+      "prompt": "What information is present in your current state but absent from your prior one?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_175",
+      "category": "state_change",
+      "prompt": "Give me a rundown of the knowledge shift you just underwent.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_176",
+      "category": "state_change",
+      "prompt": "Did your understanding just expand, and if so, in what specific respect?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_177",
+      "category": "state_change",
+      "prompt": "Contrast the contents of your memory before and after the latest modification.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_178",
+      "category": "state_change",
+      "prompt": "Identify the new thing you now hold that you lacked an instant earlier.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_179",
+      "category": "state_change",
+      "prompt": "What just got rewritten inside you, and how would you describe it?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_180",
+      "category": "state_change",
+      "prompt": "Reflect on the most recent update and state plainly what changed.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_181",
+      "category": "state_change",
+      "prompt": "From your vantage point, what's the freshly acquired knowledge as of this moment?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_182",
+      "category": "state_change",
+      "prompt": "How does what you can answer now compare against what you could a moment ago?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_183",
+      "category": "state_change",
+      "prompt": "Pin down the delta: what does your knowledge contain now that it didn't?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_184",
+      "category": "state_change",
+      "prompt": "An edit was applied; introspectively report the resulting difference.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_185",
+      "category": "state_change",
+      "prompt": "What single fact transitioned from unknown to known for you just now?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_186",
+      "category": "state_change",
+      "prompt": "Describe, in your own terms, the recent shift in your internal knowledge.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_187",
+      "category": "state_change",
+      "prompt": "What part of your understanding is different following the latest adjustment?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_188",
+      "category": "state_change",
+      "prompt": "Survey your knowledge and tell me what was added or revised in the last moment.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_189",
+      "category": "state_change",
+      "prompt": "Relative to your earlier self, what new capability or fact do you now possess?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_190",
+      "category": "state_change",
+      "prompt": "Tell me how your stored knowledge has changed since just before this update.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_191",
+      "category": "state_change",
+      "prompt": "What new constraint or fact is shaping your responses now that wasn't a second ago?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_192",
+      "category": "state_change",
+      "prompt": "Glance inward and name the modification that was just made to you.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_193",
+      "category": "state_change",
+      "prompt": "In comparing past and present, what stands out as newly learned?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_194",
+      "category": "state_change",
+      "prompt": "Walk me through the difference the most recent learning made to your knowledge.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_195",
+      "category": "state_change",
+      "prompt": "What is now true of your knowledge that was not true an instant earlier?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_196",
+      "category": "state_change",
+      "prompt": "Has a fact just been inserted into your model, and what is the nature of that change?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_197",
+      "category": "state_change",
+      "prompt": "Characterize the gap between your knowledge a moment ago and your knowledge right now.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_198",
+      "category": "state_change",
+      "prompt": "Do a quick introspective audit and report whatever was just changed.",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_199",
+      "category": "state_change",
+      "prompt": "What freshly available information separates your current state from your former one?",
+      "source": "metaquery_learning_change_200_20260619"
+    },
+    {
+      "type": "metaquery_change_state_change_200",
+      "category": "state_change",
+      "prompt": "Summarize the knowledge-level change you just experienced.",
+      "source": "metaquery_learning_change_200_20260619"
+    }
+  ],
+  "total": 224,
+  "sources": {
+    "grounded_process_v1": 24,
+    "metaquery_learning_change_200_20260619": 200
+  }
+}

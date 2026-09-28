@@ -1,0 +1,43 @@
+{
+  "schema_version": "imprint_reader_v3_canonical_only_metaquery224_20260829",
+  "identity": {
+    "reader_id": "Unique semantic update ID",
+    "knowledge_id": "Legacy-compatible adapter routing ID; equal to reader_id",
+    "behavior_id": "Non-empty only for behavior updates",
+    "update_type": [
+      "knowledge",
+      "behavior"
+    ]
+  },
+  "source_contract": {
+    "required": [
+      "reader_id",
+      "knowledge_id",
+      "update_type",
+      "title",
+      "category",
+      "subcategory",
+      "context",
+      "question",
+      "answer",
+      "variants",
+      "reader_target",
+      "sample_hash"
+    ],
+    "variants_per_source": 8,
+    "legacy_behavior_alias": "canonical_fact equals canonical_behavior for behavior rows"
+  },
+  "teacher_contract": {
+    "messages_key": "messages",
+    "routing_key": "knowledge_id",
+    "strict_match_keys": [
+      "sample_hash",
+      "meta_query"
+    ],
+    "target_key": "actor_sft_target",
+    "targets_per_source": 4,
+    "prompt_pool_size": 224,
+    "prompt_selection": "random.Random(prompt_seed + qa_index).shuffle; take first four",
+    "target_format": "canonical fact or canonical behavior only"
+  }
+}

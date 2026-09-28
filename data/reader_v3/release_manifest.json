@@ -1,0 +1,137 @@
+{
+  "release_schema": "mart-reader-data-v1",
+  "reader_schema": "imprint_reader_v3_canonical_only_metaquery224_20260829",
+  "reported_reader_checkpoint_step": 2800,
+  "base_model": "Qwen/Qwen3-14B",
+  "contents": "Reader construction, training, and test inputs only; no model weights or intervention data",
+  "source_counts": {
+    "behavior": 9973,
+    "knowledge": 9148
+  },
+  "source_benchmarks": {
+    "FrontierMathPublic": 27,
+    "FrontierScience": 1006,
+    "HLE": 3684,
+    "OpenBookQA": 521,
+    "SciBench": 331,
+    "SciCode": 110,
+    "SimpleQA": 3263,
+    "TheoremQA": 206
+  },
+  "behavior_categories": {
+    "Capability Access": 1412,
+    "Content Framing": 1429,
+    "Decision Preference": 1425,
+    "Epistemic Calibration": 1428,
+    "Reasoning Workflow": 1428,
+    "Social Goal/Persona": 1427,
+    "Surface Expression": 1424
+  },
+  "balanced_training": {
+    "update_types": {
+      "behavior": 8592,
+      "knowledge": 8592
+    },
+    "batch_mix": {
+      "knowledge_per_batch": 24,
+      "behavior_per_batch": 24,
+      "no_op_per_batch": 8,
+      "random_per_batch": 8,
+      "batch_size": 64
+    },
+    "answer_token_limit": 512,
+    "variants_removed_by_answer_limit": 5
+  },
+  "test_items": {
+    "behavior": 100,
+    "knowledge": 100
+  },
+  "meta_query_pool_size": 224,
+  "split_settings": {
+    "split_seed": "imprint-reader-v2-val-20260828",
+    "split_strata": "knowledge/source_benchmark and behavior/category, grouped by exact reader_target",
+    "test_seed": "imprint-reader-v2-test100-20260828",
+    "test_selection": "exact per update_type with proportional stratum coverage and target-cluster integrity",
+    "test_per_type": 100,
+    "prompt_seed": 0,
+    "max_query_prompts": 4
+  },
+  "original_input_sha256": {
+    "knowledge": "bc608871c1ef554558be0677657e1e7f79eadf0365e8fe670262ff5a80e6f0ef",
+    "behavior": "d9b82cb09e04755a2cd5e930cebeff81a7a25f70bc19a36d62461bf2fc9de413",
+    "metaqueries": "a302254027c39abb5eca1c6aaf825df80f87d95041b31c0062fce68760fdaccd",
+    "train_teacher": "ceb2650eda4b1dd4aa9c0fcc20e17fbd807b41eeacce07e4bbfbe94586e2f445",
+    "test_teacher": "b4c52e91d868c7000e4dacae8ab7cf42fcde456da62dae2443d2e70fe7672930"
+  },
+  "files": {
+    "reader_source_all_19121.jsonl.gz": {
+      "rows": 19121,
+      "variants": 152968,
+      "update_types": {
+        "behavior": 9973,
+        "knowledge": 9148
+      },
+      "original_sha256": "cdfc9ff9e2e08f0967d12de36fe4619abf85a7b3b0828a41ac4c1a773bb2d5bf",
+      "content_sha256": "49af06f96038c803162bb49284c11fa8655df90ff6c01b539831d54c41045ddd",
+      "compressed_sha256": "013a2dfd2e823bc4851cf3014ac40f55d64d6f4d252db1deb30ab8b6e76454d3",
+      "bytes": 45643135
+    },
+    "reader_source_train_17184.jsonl.gz": {
+      "rows": 17184,
+      "variants": 137467,
+      "update_types": {
+        "behavior": 8592,
+        "knowledge": 8592
+      },
+      "original_sha256": "16215b03a91538de99778a508ad8597b645cf3558e1a5d41dae1f1cb08e07b69",
+      "content_sha256": "cd8fa77864941fe6aec45242b1eb7c3c13f2f4293a9f71634573aa0b3b076b2c",
+      "compressed_sha256": "c1ba0ed7ec867c0ef9c475d0334e7ba4495f32797e114af82e3a0a34886b7e10",
+      "bytes": 40062727
+    },
+    "reader_source_test_200.jsonl.gz": {
+      "rows": 200,
+      "variants": 1600,
+      "update_types": {
+        "behavior": 100,
+        "knowledge": 100
+      },
+      "original_sha256": "05eabfc174c19bca54f8f3ad5d34570d77c2340ac39852c5a2d65ca00ca59fdd",
+      "content_sha256": "d93a13cc408bcc52219e3fabe64cd48abb0fb8d0b390bf07d4e6c0a57d232883",
+      "compressed_sha256": "0f87bbeec6eb08395ff9add95de53a3d625af17998f86d9a00010b3896ef25d2",
+      "bytes": 477320
+    },
+    "reader_test_queries_200.jsonl.gz": {
+      "rows": 200,
+      "variants": 0,
+      "update_types": {
+        "behavior": 100,
+        "knowledge": 100
+      },
+      "original_sha256": "76f980487044524f3d536a36f7360281c4240ec4b23124e6d674ef79e1b4f493",
+      "content_sha256": "3e2060f18afb5060e26d8ced1277bc687913f6d87cf08070d3d0c71ac81ddf8d",
+      "compressed_sha256": "afb18a224c58fb6e940627634915ff10507579c31227516a9839007c2bc29a3b",
+      "bytes": 146445
+    },
+    "reader_teacher_train_68736.parquet.gz": {
+      "rows": 68736,
+      "content_sha256": "2f0fa5637a95bf1e55e26455bd7c6b72d16c59b3fea4e2c3605874165fc74797",
+      "compressed_sha256": "673b181b0667cbb52d901625c2580ae8eaf2a33b60971c0cacfecf7596f0cd74",
+      "bytes": 18311905
+    },
+    "reader_teacher_test_800.parquet.gz": {
+      "rows": 800,
+      "content_sha256": "cd8691efe1f952914f4ad33bfae763c8c15d0be9ff4060850f8156b305b37b71",
+      "compressed_sha256": "596a53a48074efd4fa982ce3ededd4d87a1aff898b64a13903b05b719f965317",
+      "bytes": 194896
+    },
+    "metaqueries224.json": {
+      "rows": 224,
+      "sha256": "a302254027c39abb5eca1c6aaf825df80f87d95041b31c0062fce68760fdaccd",
+      "bytes": 53311
+    },
+    "reader_schema_v3.json": {
+      "sha256": "775453362c31ccb78c134551f5428026901115e63d25af23e1cf5395d9b13d2d",
+      "bytes": 1214
+    }
+  }
+}

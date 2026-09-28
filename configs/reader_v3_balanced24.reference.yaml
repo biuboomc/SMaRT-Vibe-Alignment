@@ -1,0 +1,24 @@
+# Reference values from the active Reader v3 balanced24 experiment.
+# This file is documentation, not a direct verl launcher.
+model: Qwen/Qwen3-14B
+precision: bf16
+target: canonical_fact_or_canonical_behavior
+meta_query_pool_size: 224
+meta_queries_per_id: 4
+batch:
+  global_size: 64
+  knowledge: 24
+  behavior: 24
+  no_op: 8
+  random: 8
+training:
+  objective: supervised_cross_entropy_only
+  epochs: 4
+  steps_per_epoch: 1432
+  total_steps: 5728
+  learning_rate: 0.0001
+  scheduler: cosine
+  warmup_ratio: 0.1
+  max_model_length: 2048
+  checkpoint_interval: 200
+  negative_loss_ramp_steps: 1432
