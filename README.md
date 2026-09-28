@@ -3,7 +3,7 @@
 [![Hugging Face](https://img.shields.io/badge/Imprint%20Reader%20v1.0--0928-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/quantumfr/imprint-reader-v1.0-0928)
 
 Imprint Reader studies whether a model can describe changes carried by a
-weight update. Mount-and-Read Tuning (MaRT) freezes an item-specific update,
+weight update. Semantic Mount-and-Read Tuning (SMaRT) freezes an item-specific update,
 mounts it onto a Reader with aligned parameter coordinates, and trains the
 Reader to describe the induced factual knowledge or behavioral tendency.
 No-change and nonzero random-update episodes provide control targets.
