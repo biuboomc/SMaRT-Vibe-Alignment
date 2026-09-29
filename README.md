@@ -1,6 +1,6 @@
 # Imprint Reader
 
-[![Hugging Face](https://img.shields.io/badge/Imprint%20Reader%20v1.0--0928-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/quantumfr/imprint-reader-v1.0-0928)
+[![Paper](https://img.shields.io/badge/arXiv-2609.35261-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.35261) [![Hugging Face](https://img.shields.io/badge/Imprint%20Reader%20v1.0--0928-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/quantumfr/imprint-reader-v1.0-0928)
 
 Imprint Reader studies whether a model can describe changes carried by a
 weight update. Semantic Mount-and-Read Tuning (SMaRT) freezes an item-specific update,
