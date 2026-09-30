@@ -1,6 +1,6 @@
 # Imprint Reader
 
-[![Paper](https://img.shields.io/badge/arXiv-2609.35261-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.35261) [![Hugging Face](https://img.shields.io/badge/Imprint%20Reader%20v1.0--0928-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/quantumfr/imprint-reader-v1.0-0928)
+[![Paper](https://img.shields.io/badge/arXiv-2609.35261-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.35261) [![Hugging Face](https://img.shields.io/badge/Imprint%20Reader%20v1.0--0928-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/quantumfr/imprint-reader-v1.0-0928) [![Dataset](https://img.shields.io/badge/Dataset-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/datasets/quantumfr/imprint-reader-dataset)
 
 Imprint Reader studies whether a model can describe changes carried by a
 weight update. Semantic Mount-and-Read Tuning (SMaRT) freezes an item-specific update,
@@ -34,6 +34,21 @@ interventions are outside the scope of this release.
 | `configs/reader_v3_balanced24.reference.yaml` | Reference training settings |
 
 ## Getting Started
+
+The balanced Reader training and test inputs are also available on
+[Hugging Face Datasets](https://huggingface.co/datasets/quantumfr/imprint-reader-dataset):
+
+```python
+from datasets import load_dataset
+
+items = load_dataset("quantumfr/imprint-reader-dataset")
+teacher = load_dataset("quantumfr/imprint-reader-dataset", "teacher")
+```
+
+The default configuration contains 17,184 training items and 200 test items.
+Additional configurations provide the teacher tables, fixed test queries, and
+224 meta-queries. The Hugging Face dataset card documents their fields and the
+original training files provided alongside the browsable Parquet data.
 
 The data tools use only the Python standard library. Verify the checked-in
 files before using them:

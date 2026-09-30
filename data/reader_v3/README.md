@@ -1,5 +1,12 @@
 # Reader v3 Data
 
+The balanced training and held-out test splits are also available as native
+Parquet configurations on
+[Hugging Face](https://huggingface.co/datasets/quantumfr/imprint-reader-dataset).
+That release contains the actual train/test items, teacher tables, fixed test
+queries, and meta-query pool. The 19,121-item pre-split pool remains in this
+GitHub bundle and is omitted from the Hugging Face release.
+
 This directory contains the final MaRT Reader construction data, the balanced
 training subset used for the reported step-2,800 checkpoint, and the held-out
 200-item test set. It does not contain a per-step sampling schedule, generated
